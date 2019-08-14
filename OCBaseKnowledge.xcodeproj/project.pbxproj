@@ -15,6 +15,8 @@
 		27BE1D1A230469F000A6957B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE1D19230469F000A6957B /* main.m */; };
 		27BE1D24230469F000A6957B /* OCBaseKnowledgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE1D23230469F000A6957B /* OCBaseKnowledgeTests.m */; };
 		27BE1D2F230469F000A6957B /* OCBaseKnowledgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE1D2E230469F000A6957B /* OCBaseKnowledgeUITests.m */; };
+		27BE1D3E23047DD000A6957B /* PropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE1D3D23047DD000A6957B /* PropertyViewController.m */; };
+		B64E840ED3AC71409E4E75FC /* libPods-OCBaseKnowledge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8E2C494ACCA7C7617C8799 /* libPods-OCBaseKnowledge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FC32006FE26C579DC6D32A7 /* Pods-OCBaseKnowledge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCBaseKnowledge.debug.xcconfig"; path = "Target Support Files/Pods-OCBaseKnowledge/Pods-OCBaseKnowledge.debug.xcconfig"; sourceTree = "<group>"; };
 		27BE1D07230469F000A6957B /* OCBaseKnowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCBaseKnowledge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BE1D0A230469F000A6957B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27BE1D0B230469F000A6957B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,12 @@
 		27BE1D2A230469F000A6957B /* OCBaseKnowledgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCBaseKnowledgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BE1D2E230469F000A6957B /* OCBaseKnowledgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCBaseKnowledgeUITests.m; sourceTree = "<group>"; };
 		27BE1D30230469F000A6957B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BE1D3C23047DD000A6957B /* PropertyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyViewController.h; sourceTree = "<group>"; };
+		27BE1D3D23047DD000A6957B /* PropertyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyViewController.m; sourceTree = "<group>"; };
+		27BE1D3F23047F5600A6957B /* ThirdPartyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdPartyHeader.h; sourceTree = "<group>"; };
+		27BE1D4023047F8100A6957B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AB8E2C494ACCA7C7617C8799 /* libPods-OCBaseKnowledge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCBaseKnowledge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C177060AD1639BF36E9B1CDA /* Pods-OCBaseKnowledge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCBaseKnowledge.release.xcconfig"; path = "Target Support Files/Pods-OCBaseKnowledge/Pods-OCBaseKnowledge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64E840ED3AC71409E4E75FC /* libPods-OCBaseKnowledge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				27BE1D22230469F000A6957B /* OCBaseKnowledgeTests */,
 				27BE1D2D230469F000A6957B /* OCBaseKnowledgeUITests */,
 				27BE1D08230469F000A6957B /* Products */,
+				C19546DF1398B0E7DA1424E5 /* Pods */,
+				6F2AAA74A937042241E4F8FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +117,10 @@
 				27BE1D0B230469F000A6957B /* AppDelegate.m */,
 				27BE1D0D230469F000A6957B /* ViewController.h */,
 				27BE1D0E230469F000A6957B /* ViewController.m */,
+				27BE1D3C23047DD000A6957B /* PropertyViewController.h */,
+				27BE1D3D23047DD000A6957B /* PropertyViewController.m */,
+				27BE1D3F23047F5600A6957B /* ThirdPartyHeader.h */,
+				27BE1D4023047F8100A6957B /* PrefixHeader.pch */,
 				27BE1D10230469F000A6957B /* Main.storyboard */,
 				27BE1D13230469F000A6957B /* Assets.xcassets */,
 				27BE1D15230469F000A6957B /* LaunchScreen.storyboard */,
@@ -132,6 +148,23 @@
 			path = OCBaseKnowledgeUITests;
 			sourceTree = "<group>";
 		};
+		6F2AAA74A937042241E4F8FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB8E2C494ACCA7C7617C8799 /* libPods-OCBaseKnowledge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C19546DF1398B0E7DA1424E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FC32006FE26C579DC6D32A7 /* Pods-OCBaseKnowledge.debug.xcconfig */,
+				C177060AD1639BF36E9B1CDA /* Pods-OCBaseKnowledge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27BE1D33230469F000A6957B /* Build configuration list for PBXNativeTarget "OCBaseKnowledge" */;
 			buildPhases = (
+				EFE4B59D01059F5DA6CDD7F7 /* [CP] Check Pods Manifest.lock */,
 				27BE1D03230469F000A6957B /* Sources */,
 				27BE1D04230469F000A6957B /* Frameworks */,
 				27BE1D05230469F000A6957B /* Resources */,
@@ -260,6 +294,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EFE4B59D01059F5DA6CDD7F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCBaseKnowledge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27BE1D03230469F000A6957B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +323,7 @@
 				27BE1D0F230469F000A6957B /* ViewController.m in Sources */,
 				27BE1D1A230469F000A6957B /* main.m in Sources */,
 				27BE1D0C230469F000A6957B /* AppDelegate.m in Sources */,
+				27BE1D3E23047DD000A6957B /* PropertyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +484,11 @@
 		};
 		27BE1D34230469F000A6957B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC32006FE26C579DC6D32A7 /* Pods-OCBaseKnowledge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCBaseKnowledge/PrefixHeader.pch";
 				INFOPLIST_FILE = OCBaseKnowledge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenke.OCBaseKnowledge;
@@ -441,9 +499,11 @@
 		};
 		27BE1D35230469F000A6957B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C177060AD1639BF36E9B1CDA /* Pods-OCBaseKnowledge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCBaseKnowledge/PrefixHeader.pch";
 				INFOPLIST_FILE = OCBaseKnowledge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenke.OCBaseKnowledge;

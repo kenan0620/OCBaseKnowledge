@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  OCBaseKnowledge
+//
+//  Created by conan on 2019/8/14.
+//  Copyright © 2019年 conan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ThirdPartyHeader.h"
+
+#endif /* PrefixHeader_pch */
