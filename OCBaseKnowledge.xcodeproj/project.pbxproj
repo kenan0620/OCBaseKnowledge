@@ -119,6 +119,7 @@
 				27BE1D0E230469F000A6957B /* ViewController.m */,
 				27BE1D3C23047DD000A6957B /* PropertyViewController.h */,
 				27BE1D3D23047DD000A6957B /* PropertyViewController.m */,
+				27BE1D412304B83300A6957B /* Category */,
 				27BE1D3F23047F5600A6957B /* ThirdPartyHeader.h */,
 				27BE1D4023047F8100A6957B /* PrefixHeader.pch */,
 				27BE1D10230469F000A6957B /* Main.storyboard */,
@@ -146,6 +147,13 @@
 				27BE1D30230469F000A6957B /* Info.plist */,
 			);
 			path = OCBaseKnowledgeUITests;
+			sourceTree = "<group>";
+		};
+		27BE1D412304B83300A6957B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		6F2AAA74A937042241E4F8FE /* Frameworks */ = {

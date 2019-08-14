@@ -28,6 +28,7 @@
     self.dataList = @[@"Property"];
 
     [self.homeTableView reloadData];
+
 }
 
 //MARK: delegate、datasource
